@@ -2,6 +2,10 @@
 
 A small, dependency-free Python command-line tool for administering **Beckhoff TwinCAT PLCs over ADS**.
 
+> Disclaimer:
+> This is an independent, community-developed project.
+> I have no affiliation with Beckhoff Automation GmbH, and this tool is not developed, endorsed, certified, or officially supported by Beckhoff.
+
 The tool is intended for Linux-based automation and factory environments where PLCs need to be discovered, configured, backed up, restored, or switched between TwinCAT **Config** and **Run** mode without requiring the TwinCAT engineering environment.
 
 It communicates directly with the Beckhoff ADS system services using standard Python sockets. No external Python packages are required.
